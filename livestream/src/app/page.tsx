@@ -1,95 +1,166 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { useCallback } from 'react';
+import styles from './page.module.css';
 
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+const ExplorarCaztv = () => {
+  	
+  	const onButtonContainerClick = useCallback(() => {
+    		// Add your code here
+  	}, []);
+  	
+  	return (
+    		<div className={styles.explorarCaztv}>
+      			<img className={styles.blurIcon} alt="" src="blur.png" />
+      			<div className={styles.tioorochi}>
+        				<div className={styles.stream}>
+          					<div className={styles.controls}>
+            						<div className={styles.left}>
+              							<div className={styles.control}>
+                								<img className={styles.playIcon} alt="" src="Play.svg" />
+              							</div>
+              							<div className={styles.control}>
+                								<img className={styles.playIcon} alt="" src="SpeakerSimpleHigh.svg" />
+              							</div>
+            						</div>
+            						<div className={styles.control}>
+              							<img className={styles.playIcon} alt="" src="ArrowsOutSimple.svg" />
+            						</div>
+          					</div>
+        				</div>
+        				<div className={styles.info}>
+          					<div className={styles.title}>live do mitinho (eu sou o mitinho)</div>
+          					<div className={styles.line} />
+          					<div className={styles.about}>
+            						<div className={styles.channel}>
+              							<img className={styles.imageIcon} alt="" src="image.png" />
+              							<b className={styles.tioorochinho}>tioorochinho</b>
+              							<b className={styles.b}>•</b>
+              							<div className={styles.watching}>
+                								<img className={styles.userIcon} alt="" src="User.svg" />
+                								<div className={styles.kAssistindo}>2k  assistindo</div>
+              							</div>
+            						</div>
+            						<div className={styles.actions}>
+              							<div className={styles.button}>
+                								<img className={styles.userIcon} alt="" src="Heart.svg" />
+                								<div className={styles.seguir}>Seguir</div>
+              							</div>
+              							<div className={styles.button1}>
+                								<img className={styles.userIcon} alt="" src="PaperPlaneTilt.svg" />
+                								<div className={styles.compartilhar}>Compartilhar</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div className={styles.caztv}>
+        				<div className={styles.stream1}>
+          					<div className={styles.controls}>
+            						<div className={styles.left}>
+              							<div className={styles.control}>
+                								<img className={styles.playIcon} alt="" src="Play.svg" />
+              							</div>
+              							<div className={styles.control}>
+                								<img className={styles.playIcon} alt="" src="SpeakerSimpleHigh.svg" />
+              							</div>
+            						</div>
+            						<div className={styles.control}>
+              							<img className={styles.playIcon} alt="" src="ArrowsOutSimple.svg" />
+            						</div>
+          					</div>
+        				</div>
+        				<div className={styles.info1}>
+          					<div className={styles.title}>JOGO COMPLETO: BAYER LEVERKUSEN X STUTTGART | SUPERCOPA DA ALEMANHA</div>
+          					<div className={styles.line} />
+          					<div className={styles.about}>
+            						<div className={styles.channel}>
+              							<img className={styles.imageIcon} alt="" src="image.png" />
+              							<b className={styles.tioorochinho}>Cazé TV</b>
+              							<b className={styles.b}>•</b>
+              							<div className={styles.watching}>
+                								<img className={styles.userIcon} alt="" src="User.svg" />
+                								<div className={styles.kAssistindo}>10k  assistindo</div>
+              							</div>
+            						</div>
+            						<div className={styles.actions}>
+              							<div className={styles.button2} onClick={onButtonContainerClick}>
+                								<img className={styles.userIcon} alt="" src="Heart.svg" />
+                								<div className={styles.seguir}>Seguir</div>
+              							</div>
+              							<div className={styles.button1}>
+                								<img className={styles.userIcon} alt="" src="PaperPlaneTilt.svg" />
+                								<div className={styles.compartilhar}>Compartilhar</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div className={styles.alanzoka}>
+        				<div className={styles.stream}>
+          					<div className={styles.controls}>
+            						<div className={styles.left}>
+              							<div className={styles.control}>
+                								<img className={styles.playIcon} alt="" src="Play.svg" />
+              							</div>
+              							<div className={styles.control}>
+                								<img className={styles.playIcon} alt="" src="SpeakerSimpleHigh.svg" />
+              							</div>
+            						</div>
+            						<div className={styles.control}>
+              							<img className={styles.playIcon} alt="" src="ArrowsOutSimple.svg" />
+            						</div>
+          					</div>
+        				</div>
+        				<div className={styles.info}>
+          					<div className={styles.title}>hoje acho que nao tem nada novo nem velho pq tem wukong amanha, mas tem jogo...</div>
+          					<div className={styles.line} />
+          					<div className={styles.about}>
+            						<div className={styles.channel}>
+              							<img className={styles.imageIcon} alt="" src="image.png" />
+              							<b className={styles.tioorochinho}>alanzoka</b>
+              							<b className={styles.b}>•</b>
+              							<div className={styles.watching}>
+                								<img className={styles.userIcon} alt="" src="User.svg" />
+                								<div className={styles.kAssistindo}>25k  assistindo</div>
+              							</div>
+            						</div>
+            						<div className={styles.actions}>
+              							<div className={styles.button}>
+                								<img className={styles.userIcon} alt="" src="Heart.svg" />
+                								<div className={styles.seguir}>Seguir</div>
+              							</div>
+              							<div className={styles.button1}>
+                								<img className={styles.userIcon} alt="" src="PaperPlaneTilt.svg" />
+                								<div className={styles.compartilhar}>Compartilhar</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div className={styles.next} onClick={onButtonContainerClick}>
+        				<img className={styles.arrowrightIcon} alt="" src="ArrowRight.svg" />
+      			</div>
+      			<div className={styles.before}>
+        				<img className={styles.arrowrightIcon1} alt="" src="ArrowRight.svg" />
+      			</div>
+      			<div className={styles.olDiegoParent}>
+        				<div className={styles.compartilhar}>Olá, Diego</div>
+        				<div className={styles.header}>
+          					<div className={styles.tab} onClick={onButtonContainerClick}>
+            						<img className={styles.playIcon} alt="" src="Heart.svg" />
+            						<div className={styles.compartilhar}>Seguindo</div>
+          					</div>
+          					<div className={styles.tab1}>
+            						<img className={styles.playIcon} alt="" src="Compass.svg" />
+            						<div className={styles.seguir}>Explorar</div>
+          					</div>
+        				</div>
+        				<div className={styles.tab2}>
+          					<img className={styles.videocameraIcon} alt="" src="VideoCamera.svg" />
+          					<div className={styles.seguir}>Iniciar live</div>
+        				</div>
+      			</div>
+    		</div>);
+};
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
-}
+export default ExplorarCaztv;
