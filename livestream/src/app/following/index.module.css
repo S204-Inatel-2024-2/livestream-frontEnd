@@ -1,0 +1,134 @@
+.icon {
+    width: 120px;
+    position: relative;
+    height: 120px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.sigaSeusStreamers {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+}
+.porEnquantoVoc {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.56);
+}
+.content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.message {
+    position: absolute;
+    top: calc(50% - 137px);
+    left: calc(50% - 198px);
+    width: 397px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.olDiego {
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.48);
+}
+.heartIcon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+}
+.seguindo {
+    position: relative;
+    line-height: 150%;
+    font-weight: 800;
+}
+.tab {
+    border-bottom: 1px solid #0bc5ea;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px;
+    gap: 16px;
+}
+.explorar {
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+}
+.tab1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px;
+    gap: 16px;
+    color: rgba(255, 255, 255, 0.48);
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.videocameraIcon {
+    width: 14px;
+    position: relative;
+    height: 14px;
+}
+.tab2 {
+    border-radius: 8px;
+    background-color: rgba(11, 197, 234, 0.16);
+    border: 1px solid rgba(11, 197, 234, 0.32);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    gap: 12px;
+    font-size: 14px;
+}
+.olDiegoParent {
+    position: absolute;
+    top: 32px;
+    left: calc(50% - 401px);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 803px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    color: #0bc5ea;
+}
+.seguindoVazio {
+    width: 100%;
+    position: relative;
+    background-color: #080808;
+    height: 900px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Plus Jakarta Sans';
+}
+
