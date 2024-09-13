@@ -1,14 +1,20 @@
 "use client";
 
 import { useCallback } from 'react';
+import { useRouter } from 'next/navigation';
 import styles from './page.module.css';
 
 
 const ExplorarCaztv = () => {
+	const router = useRouter();
   	
   	const onButtonContainerClick = useCallback(() => {
     		// Add your code here
   	}, []);
+
+	  const handleSeguindoClick = useCallback(() => {
+		router.push('/following');  // Redireciona para a rota /following
+	  }, [router]);
   	
   	return (
     		<div className={styles.explorarCaztv}>
@@ -148,7 +154,7 @@ const ExplorarCaztv = () => {
       			<div className={styles.olDiegoParent}>
         				<div className={styles.compartilhar}>Olá, Diego</div>
         				<div className={styles.header}>
-          					<div className={styles.tab} onClick={onButtonContainerClick}>
+          					<div className={styles.tab} onClick={handleSeguindoClick}>
             						<img className={styles.playIcon} alt="" src="Heart.svg" />
             						<div className={styles.compartilhar}>Seguindo</div>
           					</div>

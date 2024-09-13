@@ -2,10 +2,16 @@
 
 import type { NextPage } from 'next';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import styles from './index.module.css';
 
 const SeguindoVazio: NextPage = () => {
   const [seguindoList, setSeguindoList] = useState<string[]>([]); 
+  const router = useRouter();
+
+  const handleExploreClick = () => {
+    router.push('/'); // Redireciona para a rota raiz
+  };
 
   return (
     <div className={styles.seguindoVazio}>
@@ -42,7 +48,7 @@ const SeguindoVazio: NextPage = () => {
             <img className={styles.heartIcon} alt="" src="./../assets/Heart.svg" />
             <div className={styles.seguindo}>Seguindo</div>
           </div>
-          <div className={styles.tab1}>
+          <div className={styles.tab1} onClick={handleExploreClick}>
             <img className={styles.heartIcon} alt="" src="./../assets/Compass.png" />
             <div className={styles.explorar}>Explorar</div>
           </div>
