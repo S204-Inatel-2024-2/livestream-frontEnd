@@ -1,3 +1,5 @@
+"use client";
+
 import { useCallback } from 'react';
 import styles from './page.module.css';
 
@@ -42,7 +44,7 @@ const ExplorarCaztv = () => {
             						</div>
             						<div className={styles.actions}>
               							<div className={styles.button}>
-                								<img className={styles.userIcon} alt="" src="Heart.svg" />
+                								<img className={styles.userIcon} alt="" src="./assets/Heart.svg" />
                 								<div className={styles.seguir}>Seguir</div>
               							</div>
               							<div className={styles.button1}>
@@ -151,7 +153,7 @@ const ExplorarCaztv = () => {
             						<div className={styles.compartilhar}>Seguindo</div>
           					</div>
           					<div className={styles.tab1}>
-            						<img className={styles.playIcon} alt="" src="Compass.svg" />
+            						<img className={styles.playIcon} alt="" src="./assets/Compass_blue.png" />
             						<div className={styles.seguir}>Explorar</div>
           					</div>
         				</div>
