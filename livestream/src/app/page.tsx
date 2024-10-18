@@ -18,20 +18,20 @@ const ExplorarCaztv = () => {
   	
   	return (
     		<div className={styles.explorarCaztv}>
-      			<img className={styles.blurIcon} alt="" src="blur.png" />
+      			<img className={styles.blurIcon} alt="" src="./assets/blur.png" />
       			<div className={styles.tioorochi}>
         				<div className={styles.stream}>
           					<div className={styles.controls}>
             						<div className={styles.left}>
               							<div className={styles.control}>
-                								<img className={styles.playIcon} alt="" src="Play.svg" />
+                								<img className={styles.playIcon} alt="" src="./assets/Play.svg" />
               							</div>
               							<div className={styles.control}>
-                								<img className={styles.playIcon} alt="" src="SpeakerSimpleHigh.svg" />
+                								<img className={styles.playIcon} alt="" src="./assets/SpeakerSimpleHigh.svg" />
               							</div>
             						</div>
             						<div className={styles.control}>
-              							<img className={styles.playIcon} alt="" src="ArrowsOutSimple.svg" />
+              							<img className={styles.playIcon} alt="" src="./assets/ArrowsOutSimple.svg" />
             						</div>
           					</div>
         				</div>
@@ -40,11 +40,11 @@ const ExplorarCaztv = () => {
           					<div className={styles.line} />
           					<div className={styles.about}>
             						<div className={styles.channel}>
-              							<img className={styles.imageIcon} alt="" src="image.png" />
+              							<img className={styles.imageIcon} alt="" src="./assets/image.svg" />
               							<b className={styles.tioorochinho}>tioorochinho</b>
               							<b className={styles.b}>•</b>
               							<div className={styles.watching}>
-                								<img className={styles.userIcon} alt="" src="User.svg" />
+                								<img className={styles.userIcon} alt="" src="./assets/User.svg" />
                 								<div className={styles.kAssistindo}>2k  assistindo</div>
               							</div>
             						</div>
@@ -54,7 +54,7 @@ const ExplorarCaztv = () => {
                 								<div className={styles.seguir}>Seguir</div>
               							</div>
               							<div className={styles.button1}>
-                								<img className={styles.userIcon} alt="" src="PaperPlaneTilt.svg" />
+                								<img className={styles.userIcon} alt="" src="./assets/PaperPlaneTilt.svg" />
                 								<div className={styles.compartilhar}>Compartilhar</div>
               							</div>
             						</div>
@@ -66,14 +66,14 @@ const ExplorarCaztv = () => {
           					<div className={styles.controls}>
             						<div className={styles.left}>
               							<div className={styles.control}>
-                								<img className={styles.playIcon} alt="" src="Play.svg" />
+                								<img className={styles.playIcon} alt="" src="./assets/Play.svg" />
               							</div>
               							<div className={styles.control}>
-                								<img className={styles.playIcon} alt="" src="SpeakerSimpleHigh.svg" />
+                								<img className={styles.playIcon} alt="" src="./assets/SpeakerSimpleHigh.svg" />
               							</div>
             						</div>
             						<div className={styles.control}>
-              							<img className={styles.playIcon} alt="" src="ArrowsOutSimple.svg" />
+              							<img className={styles.playIcon} alt="" src="./assets/ArrowsOutSimple.svg" />
             						</div>
           					</div>
         				</div>
@@ -82,21 +82,21 @@ const ExplorarCaztv = () => {
           					<div className={styles.line} />
           					<div className={styles.about}>
             						<div className={styles.channel}>
-              							<img className={styles.imageIcon} alt="" src="image.png" />
+              							<img className={styles.imageIcon} alt="" src="./assets/image.svg" />
               							<b className={styles.tioorochinho}>Cazé TV</b>
               							<b className={styles.b}>•</b>
               							<div className={styles.watching}>
-                								<img className={styles.userIcon} alt="" src="User.svg" />
+                								<img className={styles.userIcon} alt="" src="./assets/User.svg" />
                 								<div className={styles.kAssistindo}>10k  assistindo</div>
               							</div>
             						</div>
             						<div className={styles.actions}>
               							<div className={styles.button2} onClick={onButtonContainerClick}>
-                								<img className={styles.userIcon} alt="" src="Heart.svg" />
+                								<img className={styles.userIcon} alt="" src="./assets/Heart.svg" />
                 								<div className={styles.seguir}>Seguir</div>
               							</div>
               							<div className={styles.button1}>
-                								<img className={styles.userIcon} alt="" src="PaperPlaneTilt.svg" />
+                								<img className={styles.userIcon} alt="" src="./assets/PaperPlaneTilt.svg" />
                 								<div className={styles.compartilhar}>Compartilhar</div>
               							</div>
             						</div>
@@ -108,14 +108,14 @@ const ExplorarCaztv = () => {
           					<div className={styles.controls}>
             						<div className={styles.left}>
               							<div className={styles.control}>
-                								<img className={styles.playIcon} alt="" src="Play.svg" />
+                								<img className={styles.playIcon} alt="" src="./assets/Play.svg" />
               							</div>
               							<div className={styles.control}>
-                								<img className={styles.playIcon} alt="" src="SpeakerSimpleHigh.svg" />
+                								<img className={styles.playIcon} alt="" src="./assets/SpeakerSimpleHigh.svg" />
               							</div>
             						</div>
             						<div className={styles.control}>
-              							<img className={styles.playIcon} alt="" src="ArrowsOutSimple.svg" />
+              							<img className={styles.playIcon} alt="" src="./assets/ArrowsOutSimple.svg" />
             						</div>
           					</div>
         				</div>
@@ -124,21 +124,21 @@ const ExplorarCaztv = () => {
           					<div className={styles.line} />
           					<div className={styles.about}>
             						<div className={styles.channel}>
-              							<img className={styles.imageIcon} alt="" src="image.png" />
+              							<img className={styles.imageIcon} alt="" src="./assets/image.svg" />
               							<b className={styles.tioorochinho}>alanzoka</b>
               							<b className={styles.b}>•</b>
               							<div className={styles.watching}>
-                								<img className={styles.userIcon} alt="" src="User.svg" />
+                								<img className={styles.userIcon} alt="" src="./assets/User.svg" />
                 								<div className={styles.kAssistindo}>25k  assistindo</div>
               							</div>
             						</div>
             						<div className={styles.actions}>
               							<div className={styles.button}>
-                								<img className={styles.userIcon} alt="" src="Heart.svg" />
+                								<img className={styles.userIcon} alt="" src="./assets/Heart.svg" />
                 								<div className={styles.seguir}>Seguir</div>
               							</div>
               							<div className={styles.button1}>
-                								<img className={styles.userIcon} alt="" src="PaperPlaneTilt.svg" />
+                								<img className={styles.userIcon} alt="" src="./assets/PaperPlaneTilt.svg" />
                 								<div className={styles.compartilhar}>Compartilhar</div>
               							</div>
             						</div>
@@ -146,16 +146,16 @@ const ExplorarCaztv = () => {
         				</div>
       			</div>
       			<div className={styles.next} onClick={onButtonContainerClick}>
-        				<img className={styles.arrowrightIcon} alt="" src="ArrowRight.svg" />
+        				<img className={styles.arrowrightIcon} alt="" src="./assets/ArrowRight.svg" />
       			</div>
       			<div className={styles.before}>
-        				<img className={styles.arrowrightIcon1} alt="" src="ArrowRight.svg" />
+        				<img className={styles.arrowrightIcon1} alt="" src="./assets/ArrowRight.svg" />
       			</div>
       			<div className={styles.olDiegoParent}>
         				<div className={styles.compartilhar}>Olá, Diego</div>
         				<div className={styles.header}>
           					<div className={styles.tab} onClick={handleSeguindoClick}>
-            						<img className={styles.playIcon} alt="" src="Heart.svg" />
+            						<img className={styles.playIcon} alt="" src="./assets/Heart.svg" />
             						<div className={styles.compartilhar}>Seguindo</div>
           					</div>
           					<div className={styles.tab1}>
@@ -164,7 +164,7 @@ const ExplorarCaztv = () => {
           					</div>
         				</div>
         				<div className={styles.tab2}>
-          					<img className={styles.videocameraIcon} alt="" src="VideoCamera.svg" />
+          					<img className={styles.videocameraIcon} alt="" src="./assets/VideoCamera.png" />
           					<div className={styles.seguir}>Iniciar live</div>
         				</div>
       			</div>

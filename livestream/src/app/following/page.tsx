@@ -32,7 +32,7 @@ const SeguindoVazio: NextPage = () => {
       ) : (
         // Renderiza imagem e título quando há elementos no array
         <div className={styles.caztv}>
-          <img className={styles.streamIcon} alt="" src="stream.png" />
+          <img className={styles.streamIcon} alt="" src="./../assets/stream.png" />
           <div className={styles.info}>
             <div className={styles.title}>
               JOGO COMPLETO: BAYER LEVERKUSEN X STUTTGART | SUPERCOPA DA ALEMANHA
@@ -54,7 +54,7 @@ const SeguindoVazio: NextPage = () => {
           </div>
         </div>
         <div className={styles.tab2}>
-          <img className={styles.videocameraIcon} alt="" src="./../assets/VideoCamera.svg" />
+          <img className={styles.videocameraIcon} alt="" src="./../assets/VideoCamera.png" />
           <div className={styles.seguindo}>Iniciar live</div>
         </div>
       </div>
